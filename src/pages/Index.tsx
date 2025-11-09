@@ -84,10 +84,10 @@ const Index = () => {
                 Quality service at fair prices, delivered on time.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button variant="hero" size="lg" className="text-base">
+                <Button variant="hero" size="lg" className="text-base" onClick={() => window.location.href = "/services"}>
                   Book a Service Now
                 </Button>
-                <Button variant="outline" size="lg" className="text-base">
+                <Button variant="outline" size="lg" className="text-base" onClick={() => window.location.href = "/provider"}>
                   Join as Professional
                 </Button>
               </div>
@@ -176,13 +176,14 @@ const Index = () => {
               Join thousands of satisfied customers who trust LocalAid for their home service needs
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="secondary" size="lg" className="text-base shadow-lg">
+              <Button variant="secondary" size="lg" className="text-base shadow-lg" onClick={() => window.location.href = "/services"}>
                 Book Your First Service
               </Button>
               <Button 
                 variant="outline" 
                 size="lg" 
                 className="text-base bg-primary-foreground text-primary hover:bg-primary-foreground/90 border-primary-foreground"
+                onClick={() => window.location.href = "/provider"}
               >
                 Become a Partner
               </Button>
