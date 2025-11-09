@@ -1,3 +1,4 @@
+import { ChatBot } from "@/components/ChatBot";
 import { Header } from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import { ServiceCard } from "@/components/ServiceCard";
@@ -58,6 +59,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <ChatBot />
       <Header />
       
       {/* Hero Section */}
